@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func MudarValor(a *int) {
+	*a = 10
+}
+
 func main() {
 
 	a := 10
@@ -13,6 +17,8 @@ func main() {
 	b := &a
 
 	*b = 30
+
+	MudarValor(&a)
 	fmt.Println(t)
 	fmt.Println(a)
 	fmt.Println(*b)
