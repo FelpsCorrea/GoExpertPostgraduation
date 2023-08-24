@@ -41,6 +41,14 @@ func Soma2[T Number](m map[string]T) T {
 
 	return soma
 }
+
+func Compara[T Number](a T, b T) bool {
+	if a == b {
+		return true
+	}
+	return false
+}
+
 func main() {
 	m := map[string]int{"A": 10, "B": 100, "C": 1000}
 	fmt.Println(SomaInteiro(m))
