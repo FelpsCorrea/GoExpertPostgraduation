@@ -1,0 +1,21 @@
+basePath: /
+host: localhost:8080
+info:
+  contact:
+    email: dev.felipecls@gmail.com
+    name: Felipe Correa
+    url: http://github.com/FelpsCorrea
+  description: API para gerenciamento de produtos e usuários
+  license:
+    name: Dev License
+    url: http://github.com/FelpsCorrea
+  termsOfService: http://swagger.io/terms/
+  title: GoExpertPostgraduation API
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
